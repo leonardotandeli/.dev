@@ -3,7 +3,7 @@
 import { MoonIcon } from '@radix-ui/react-icons';
 import { useTheme } from 'next-themes';
 
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button'
 
 import { useState } from 'react';
 
@@ -17,7 +17,7 @@ export function DarkModeButton(): JSX.Element {
   };
 
   return (
-    <Button variant="outline" size="icon" onClick={handleDarkMode}>
+    <Button variant="outline" size="icon" onClick={handleDarkMode} data-testid="dark-mode-button">
       <MoonIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:text-blue-500" />
     </Button>
   );
