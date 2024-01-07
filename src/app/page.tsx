@@ -1,7 +1,8 @@
 'use client';
 
 import AboutMe from '@/components/aboutMe/AboutMe';
-import Books from '@/components/books/books';
+import Books from '@/components/books/Books';
+
 import Tecnologies from '@/components/tecnologies/Tecnologies';
 
 export default function Home(): JSX.Element {
