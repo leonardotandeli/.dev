@@ -13,18 +13,18 @@ export default function Header(): JSX.Element {
   
   return (
     <header
-      className={`background flex items-center justify-center md:justify-between  py-4 flex-wrap gap-4 md:gap-0`}
+      className={`background flex items-center justify-center md:justify-between  py-6 mb-8 flex-wrap gap-4 md:gap-0`}
     >
       <Logo />
 
       <div className={`flex flex-row justify-center items-center space-x-8 `}>
         <div className={`flex flex-row justify-center items-center space-x-2 `}>
           <SocialNetworkButton url={LINKEDIN_URL}>
-            <LinkedinIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:text-blue-500" />
+            <LinkedinIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all primary" />
           </SocialNetworkButton>
 
           <SocialNetworkButton url={GITHUB_URL}>
-            <GithubIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:text-blue-500" />
+            <GithubIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all primary" />
           </SocialNetworkButton>
         </div>
 

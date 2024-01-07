@@ -21,40 +21,40 @@ export default function Tecnologies():JSX.Element {
           Technologies in which I possess some proficiency
         </h1>
 
-        <div className="flex gap-4">
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiNodedotjs className="bg-white text-2xl dark:text-blue-500" />
+        <div className="flex gap-4 flex-wrap">
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiNodedotjs className="bg-secondary text-2xl text-primary" />
           </Card>
 
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiTypescript className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiTypescript className="bg-secondary text-2xl text-primary" />
           </Card>
 
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiReact className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiReact className="bg-secondary text-2xl text-primary" />
           </Card>
 
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiReactquery className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiReactquery className="bg-secondary text-2xl text-primary" />
           </Card>
 
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiNextdotjs className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiNextdotjs className="bg-secondary text-2xl text-primary" />
           </Card>
 
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiMongodb className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiMongodb className="bg-secondary text-2xl text-primary" />
           </Card>
 
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiMysql className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiMysql className="bg-secondary text-2xl text-primary" />
           </Card>
 
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiDocker className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiDocker className="bg-secondary text-2xl text-primary" />
           </Card>
-          <Card className="bg-white p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
-            <SiAmazonaws className="bg-white text-2xl dark:text-blue-500" />
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiAmazonaws className="bg-secondary text-2xl text-primary" />
           </Card>
         </div>
       </div>
