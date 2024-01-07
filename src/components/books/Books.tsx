@@ -47,6 +47,19 @@ export default function Books(): JSX.Element {
             className="rounded-md shadow-md hover:cursor-pointer"
           />
         </Link>
+
+        <Link
+          target="_blank"
+          href="https://www.amazon.com.br/Pragmatic-Programmer-journey-mastery-Anniversary-dp-0135957052/dp/0135957052"
+        >
+          <Image
+            src={'/books/71f743sOPoL._SL1500_.jpg'}
+            alt={'Pragmatic Programmer'}
+            width={150}
+            height={300}
+            className="rounded-md shadow-md hover:cursor-pointer"
+          />
+        </Link>
       </div>
     </div>
   );

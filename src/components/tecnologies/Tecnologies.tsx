@@ -5,6 +5,7 @@ import { Card } from '../ui/card'
 import {
   SiAmazonaws,
   SiDocker,
+  SiGo,
   SiMongodb,
   SiMysql,
   SiNextdotjs,
@@ -55,6 +56,9 @@ export default function Tecnologies():JSX.Element {
           </Card>
           <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
             <SiAmazonaws className="bg-secondary text-2xl text-primary" />
+          </Card>
+          <Card className="bg-secondary p-2 items-center w-12 h-12 flex justify-center rounded-md shadow-md">
+            <SiGo className="bg-secondary text-2xl text-primary" />
           </Card>
         </div>
       </div>
